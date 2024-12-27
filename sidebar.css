@@ -1,0 +1,42 @@
+.side-bar{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top:56px;
+  left: 0px;
+  bottom: 0px;
+  width: 72px;
+  z-index: 100;
+  padding: 0px;
+  align-items: center;
+  justify-content: top;
+  background-color: white;
+
+}
+.menu{
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  align-items: center;
+  justify-content: center;
+  height: 74px;
+  width: 72px;
+  cursor: pointer;
+}
+.icon{
+  height: 24px;
+  width: 24px;
+  object-fit: cover;
+  border: none;
+  margin-top: 2px;
+}
+
+.label-name{
+  font-size: 10px;
+}
+.menu:hover{
+  background-color:  rgb(230, 230, 230);
+  border: none;
+  border-radius: 10px;
+
+}
